@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/marisadance/static/css/main.85c707fd.css",
-    "main.js": "/marisadance/static/js/main.be7ef3f4.js",
+    "main.css": "/marisadance/static/css/main.1a328a2e.css",
+    "main.js": "/marisadance/static/js/main.480bea99.js",
     "static/js/787.d509b56c.chunk.js": "/marisadance/static/js/787.d509b56c.chunk.js",
     "index.html": "/marisadance/index.html",
-    "main.85c707fd.css.map": "/marisadance/static/css/main.85c707fd.css.map",
-    "main.be7ef3f4.js.map": "/marisadance/static/js/main.be7ef3f4.js.map",
+    "main.1a328a2e.css.map": "/marisadance/static/css/main.1a328a2e.css.map",
+    "main.480bea99.js.map": "/marisadance/static/js/main.480bea99.js.map",
     "787.d509b56c.chunk.js.map": "/marisadance/static/js/787.d509b56c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c707fd.css",
-    "static/js/main.be7ef3f4.js"
+    "static/css/main.1a328a2e.css",
+    "static/js/main.480bea99.js"
   ]
 }
