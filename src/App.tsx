@@ -10,9 +10,12 @@ function App() {
 
   const onClick = useCallback(() => {
     const maxValue = Object.values(marisaVersions).length;
-
-
-    setCurrentVersionIndex((currentVersionIndex + 1) % maxValue)
+    let nextVersionIndex = Math.floor(Math.random() * (maxValue - 1));
+    if (nextVersionIndex === currentVersionIndex) {
+      nextVersionIndex += 1;
+    }
+    console.log(nextVersionIndex)
+    setCurrentVersionIndex(nextVersionIndex)
   },[currentVersionIndex, setCurrentVersionIndex])
 
   return (
