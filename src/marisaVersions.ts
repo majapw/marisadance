@@ -20,12 +20,12 @@ const versionMetadata = {
     [marisaVersions.DANCER]: {
         title: 'Dancer Marisa',
         image: 'dancer-marisa.png',
-        description: "Dancer Marisa is in the center of every mosh pit and the star of every performance! She is always ready to show off her moves, in any style of dance, in any scenario. If you say dancing, she's already there. "
+        description: "Dancer Marisa is in the center of every mosh pit and the star of every performance! She is always ready to show off her moves, in any style of dance, in any scenario. If you say dance, she's already there. "
     },
     [marisaVersions.PARTY]: {
         title: 'Party Marisa',
         image: 'party-marisa.png',
-        description: "Party Marisa is ready to get down. No matter where or when, she's always ready to have a great time. You certainly won't regret inviting her over, and she's sure to keep the energy going."
+        description: "Party Marisa is ready to get down. No matter where or when, she's always ready to have a great time. You certainly won't regret inviting her over, and she's sure to keep the energy going all party long."
     },
     [marisaVersions.CYCLIST]: {
         title: 'Cyclist Marisa',

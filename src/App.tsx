@@ -14,9 +14,11 @@ function App() {
     if (nextVersionIndex === currentVersionIndex) {
       nextVersionIndex += 1;
     }
-    console.log(nextVersionIndex)
     setCurrentVersionIndex(nextVersionIndex)
   },[currentVersionIndex, setCurrentVersionIndex])
+
+  const [showOverlay, setShowOverlay] = useState<boolean>(true);
+  const onShowOverlayClick = useCallback(() => setShowOverlay(!showOverlay), [showOverlay, setShowOverlay]);
 
   return (
     <div className="App">
@@ -25,7 +27,7 @@ function App() {
       </header>
       <div className="App-contents">
         <div>See the many forms of Marisa Silva: </div>
-        <button type="button" onClick={onClick}>Show Me Another</button>
+        <button type="button" onClick={onClick}>Show Me Another!!!</button>
         <hr/>
 
         <div className="version">
@@ -35,6 +37,17 @@ function App() {
         </div>
       </div> 
 
+      <div style={{fontSize: 24}}>👇🏻👇🏻👇🏻</div>
+
+      <hr />
+      <div>
+        <div className="version--title">What is this website?</div>
+        <div>
+          This website was made with love to Marisa Silva from her energy buddy, Maja Wichrowska, for USA Club Rugby Division II Nationals on May 21st and 22nd, 2022 in Atlanta, GA. Marisa and Maja both are representing the Berkeley All Blues in their first ever bid for the DII national championship. <br /><br />
+
+          Kick some ass this weekend, Marisa! I know that you are going to absolutely crush it! I hope this website reminds you how frickin awesome you are and gives you a little bit of that extra energy when you are out on the field on Saturday! 💙💛💙💛💙💛
+        </div>
+      </div>
     </div>
   );
 }

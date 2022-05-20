@@ -9,6 +9,7 @@
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
+  padding: 24px;
 }
 
 .App-header {
@@ -60,7 +61,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
   max-width: 600px;
 }
 
