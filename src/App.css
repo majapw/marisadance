@@ -6,13 +6,34 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header {
+  font-size: 48px;
+  padding: 16px 16px 0 16px;
+  font-weight: 800;
+}
+
+hr {
+  width: 75%;
+  background-color: gray;
+  border-color: gray;
+}
+
+button {
+  border-radius: 0;
+  background-color: white;
+  padding: 12px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 70%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,4 +53,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  max-width: 600px;
+}
+
+
+.version--title {
+  font-size: 24px;
+  font-weight: 800;
 }
